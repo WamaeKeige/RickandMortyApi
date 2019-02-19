@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/movielayout"
+            android:orientation="vertical">
+            <ImageView
+                android:paddingLeft="50dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/posterimg"
+                android:src="@drawable/ic_stat_name"/>
+            <TextView
+                android:paddingLeft="10dp"
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:id="@+id/txtname"
+                android:textStyle="bold"
+                android:text="character name"/>
+            <TextView
+                android:paddingLeft="10dp"
+                android:layout_width="350dp"
+                android:layout_height="40dp"
+                android:id="@+id/txtgender"
+                android:textStyle="italic"
+                android:text="character gender"/>
+            <TextView
+                android:layout_width="350dp"
+                android:layout_height="40dp"
+                android:textStyle="normal"
+                android:paddingLeft="10dp"
+                android:id="@+id/txtstatus"
+                android:text="character status"/>
+            <TextView
+                android:layout_width="350dp"
+                android:layout_height="40dp"
+                android:textStyle="normal"
+                android:paddingLeft="10dp"
+                android:id="@+id/txtspecies"
+                android:text="character species"/>
+        </LinearLayout>
